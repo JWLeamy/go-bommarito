@@ -1,4 +1,5 @@
 import '../styles/output.css';
+import { FaEdit, FaTrash} from 'react-icons/fa';
 
 function AllCategories () {
     return (
@@ -27,17 +28,22 @@ function AllCategories () {
                 Category name goes here
               </td>
               <td className="align-center">
-
+              <FaEdit />
               </td>
               <td className="align-center">
-
+              <FaTrash />
               </td>
             </tr>
             <tr class="bg-mainWhite border-b border-mainBlue transition duration-300 ease-in-out hover:bg-lightGrey">
               <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                 Category name goes here
               </td>
-
+              <td className="align-center">
+              <FaEdit />
+              </td>
+              <td className="align-center">
+              <FaTrash />
+              </td>
             </tr>
             <tr class="bg-mainWhite border-b border-mainBlue transition duration-300 ease-in-out hover:bg-lightGrey">
               <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">

@@ -34,7 +34,7 @@ function AdminNav () {
                 </Link>
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end" onClick={logout}>
-                <Link to='/discover'>
+                <Link to='/'>
                 <h2 className="p-4 rounded-md text-lg font-semibold leading-6 text-gray-900 hover:bg-mainBlue hover:text-mainWhite">
                 Log out <span aria-hidden="true">&rarr;</span>
                 </h2>
