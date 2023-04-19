@@ -1,8 +1,8 @@
-import '../styles/output.css';
+import '../../../styles/output.css';
 import { FaEdit, FaTrash} from 'react-icons/fa';
 import { useQuery } from '@apollo/client';
-import { QUERY_SINGLE_PROFILE } from '../utils/queries';
-import AuthService from '../utils/auth';
+import { QUERY_SINGLE_PROFILE } from '../../../utils/queries';
+import AuthService from '../../../utils/auth';
 
 function Account () {
 

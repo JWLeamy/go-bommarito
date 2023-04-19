@@ -1,5 +1,5 @@
 // footer from template
-import '../styles/output.css';
+import '../styles/output.css'
 
 function AdminFooter () {
     return (

@@ -1,8 +1,8 @@
-import EditBlog from "../componentsAdmin/editBlog";
-import Published from "../componentsAdmin/published";
-import '../styles/output.css';
+import EditBlog from "../../editBlog";
+import Published from "../../published";
+import '../../../styles/output.css';
 import { useQuery } from '@apollo/client';
-import { QUERY_BLOGS } from '../utils/queries';
+import { QUERY_BLOGS } from '../../../utils/queries';
 
 
 function Posts() {

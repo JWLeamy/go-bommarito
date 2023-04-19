@@ -1,7 +1,7 @@
-import '../styles/output.css';
-import DefaultHome from "../componentsAdmin/defaultHome"
+import '../../../styles/output.css';
+import DefaultHome from '../../defaultHome'
 import { useQuery } from '@apollo/client';
-import { QUERY_BLOGS } from '../utils/queries';
+import { QUERY_BLOGS } from '../../../utils/queries';
 
 function AdminHome () {
 

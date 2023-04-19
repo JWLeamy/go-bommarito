@@ -1,9 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/discover.css'
-import Singleblog from './pages/Blog';
-import { Routes, Route } from 'react-router-dom';
-import { FaBold } from 'react-icons/fa';
+
 
 const BlogList = ({ blogs }) => {
   if (!blogs.length) {

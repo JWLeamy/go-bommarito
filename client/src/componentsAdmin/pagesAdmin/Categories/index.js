@@ -1,6 +1,6 @@
-import AllCategories from "../componentsAdmin/allCategories";
-import EditCategories from "../componentsAdmin/editCategories";
-import '../styles/output.css';
+import AllCategories from "../../allCategories"
+import EditCategories from "../../editCategories";
+import '../../../styles/output.css';
 
 function Categories() {
     return (
