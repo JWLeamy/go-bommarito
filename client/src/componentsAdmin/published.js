@@ -1,6 +1,5 @@
 // published
 import '../styles/output.css';
-import { FaEdit, FaTrash} from 'react-icons/fa';
 
 const Published = ({blogs}) => {
   if (!blogs.length) {
@@ -46,12 +45,6 @@ const Published = ({blogs}) => {
             <td className="text-sm text-mainBlack font-light px-6 py-3 whitespace-nowrap">
               This is where date goes
             </td>
-            <td className="align-center">
-            <FaEdit />
-            </td>
-            <td className="align-center">
-            <FaTrash />
-            </td>
           </tr>
           <tr className="bg-mainWhite border-b border-mainBlue transition duration-300 ease-in-out hover:bg-lightGrey">
             <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
@@ -65,12 +58,6 @@ const Published = ({blogs}) => {
             </td>
             <td className="text-sm text-mainBlack font-light px-6 py-3 whitespace-nowrap">
               This is where date goes
-            </td>
-            <td className="justify-center">
-            <FaEdit />
-            </td>
-            <td className="justify-center">
-            <FaTrash />
             </td>
           </tr>
         </tbody>
@@ -117,12 +104,6 @@ const Published = ({blogs}) => {
           <td className="text-sm text-mainBlack font-light px-6 py-3 whitespace-nowrap">{blog.blogAuthor}</td>
           <td className="text-sm text-mainBlack font-light px-6 py-3 whitespace-nowrap overflow-hidden">{blog.blogText.substring(0,25)}...</td>
           <td className="text-sm text-mainBlack font-light px-6 py-3 whitespace-nowrap">{blog.createdAt}</td>
-          <td className="align-center">
-          <FaEdit />
-          </td>
-          <td className="align-center">
-          <FaTrash />
-          </td>
         </tr>
         ))}
       </tbody>
